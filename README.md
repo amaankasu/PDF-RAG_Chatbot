@@ -6,139 +6,186 @@ Develop a chatbot that allows users to upload a PDF and query its content using 
 
 ## Requirements
 
-- **Text Extraction & Indexing:** Extract and index text from PDF files.
-- **Contextual Question Answering:** Answer user queries by retrieving relevant sections from the uploaded document.
-- **Scalability & Efficiency:** Ensure smooth performance for large PDFs.
-- **Ease of Deployment:** Provide clear instructions for setup, testing, and deployment.
+- **Text Extraction & Indexing:** Implement functionality to extract and index text from PDF files.
+- **Contextual Question Answering:** Enable the chatbot to answer questions by referring back to the relevant sections of the uploaded document.
+- **Scalability & Efficiency:** Ensure the solution handles document data efficiently and scales for real-world applications.
+- **Documentation:** Provide comprehensive instructions on how to test and deploy the solution.
 
 ---
 
-## **Repository Structure**
+## Project Overview
 
-This repository contains two separate RAG models:
-
-- **Simpler RAG Model** (Stable & Reliable) ✅
-- **Advanced RAG Model** (More Features but can do better with further Fine-Tuning) ⚠️
-
-Each model has:
-
-- Its own **Jupyter Notebook** (`.ipynb` file).
-- Its own **virtual environment** (to avoid dependency conflicts).
-- Its own **requirements.txt** (to install the necessary dependencies).
+This project enables users to upload a PDF and interact with its content through a RAG-based chatbot. The system is designed for high retrieval accuracy and contextual relevance while emphasizing scalability and efficiency.
 
 ---
 
-## **Setup & Usage Instructions**
+## Project Evolution
 
-### **1️ Clone the Repository**
+### Simpler RAG Prototype
 
-```bash
- git clone <repository-url>
- cd <repository-folder>
+I began with a Simpler RAG model to establish the core pipeline:
+
+- **Extraction:** Used PyMuPDF for fallback raw text extraction and simple directory-based loading.
+- **Chunking:** Implemented naive but reliable chunking methods to break down the document.
+- **Indexing & Retrieval:** Built a vector index using FAISS, enabling robust and fast query retrieval.
+- **Response Generation:** Integrated OpenAI’s API to generate answers based on retrieved context.
+
+This Simpler prototype has proven extremely robust and reliable, serving as a solid foundation for understanding the fundamental RAG mechanism.
+
+### Advanced Model
+
+Building on the insights from the simpler prototype, I developed an advanced version with additional features:
+
+- **Adaptive Chunking:** Introduced dynamic chunking based on sentence length and linguistic cues.
+- **Structured Extraction & Tagging:** Leveraged the Unstructured library to partition PDFs and tag sections (e.g., Abstract, Introduction, Conclusion), enhancing retrieval granularity.
+- **Hybrid Retrieval:** Combined FAISS vector search with BM25 re-ranking for improved context relevance.
+- **Enhanced Prompt Engineering:** Fine-tuned prompts for more precise and context-aware response generation.
+
+Although the advanced model offers greater customizability and fine-tuning, its performance varies slightly under certain conditions. The simpler model, however, remains highly robust and reliable. This iterative development approach not only deepened my understanding of RAG systems but also provides a clear path for future enhancements.
+
+---
+
+## Key Features
+
+- **Advanced PDF Processing:**\
+  Uses PyMuPDF (fitz) for raw text extraction and Unstructured’s partition\_pdf for structured content extraction, ensuring tables, headers, and lists are preserved.
+
+- **Intelligent NLP Processing:**\
+  Utilizes spaCy for tokenization, sentence segmentation, and regex-based section tagging to enhance document structuring.
+
+- **Adaptive Dynamic Chunking:**\
+  Implements dynamic chunking based on average sentence length and transition-word cues to produce semantically coherent text chunks.
+
+- **Hybrid Retrieval (Vector + Keyword):**\
+  Combines FAISS for vector-based search with BM25 filtering for lexical relevance, improving the precision of context retrieval.
+
+- **Embedding & Response Generation:**\
+  Employs SentenceTransformer for generating embeddings and OpenAI’s GPT-4o-mini for context-aware answer generation.
+
+- **Backend & Logging:**\
+  Integrates comprehensive logging for monitoring extraction performance and query latency, supporting ongoing optimization.
+
+---
+
+## Repository Details
+
+### Structure
+
+The repository maintains a clear separation between the **Simpler RAG model** and the **advanced model**:
+
+- `simpler_rag_model.ipynb` – Robust and reliable core RAG implementation.
+- `advanced_rag_model.ipynb` – Extended model with enhanced features.
+- `simpler_rag_requirements.txt` – Dependencies for the simpler model.
+- `advanced_rag_requirements.txt` – Dependencies for the advanced model.
+- Two **virtual environments** to avoid dependency conflicts between models.
+- Data directory for storing uploaded PDFs.
+- Logs directory for tracking application performance.
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```sh
+git clone <repository-url>
+cd <repository-folder>
 ```
 
-### **2️ Choose the Model You Want to Use**
+### 2. Set Up a Virtual Environment
 
-- If you want to run the **simpler RAG Model**, follow the setup steps for `simpler_rag_model.ipynb`.
-- If you want to run the **Advanced RAG Model**, follow the setup steps for `advanced_rag_model.ipynb`.
+Since the simpler and advanced models have overlapping but different dependencies, separate virtual environments are required.
 
-### **3️ Create a Virtual Environment**
+#### For the Simpler Model:
 
-Each model has a separate virtual environment to avoid dependency conflicts.
-
-#### **For the simpler Model:**
-
-```bash
+```sh
 python -m venv simpler_rag_venv
-source simpler_rag_venv/bin/activate  # (Mac/Linux)
-simpler_rag_venv\Scripts\activate    # (Windows)
+source simpler_rag_venv/bin/activate  # On macOS/Linux
+simpler_rag_venv\Scripts\activate    # On Windows
 ```
 
-#### **For the Advanced Model:**
+#### For the Advanced Model:
 
-```bash
+```sh
 python -m venv advanced_rag_venv
-source advanced_rag_venv/bin/activate  # (Mac/Linux)
-advanced_rag_venv\Scripts\activate    # (Windows)
+source advanced_rag_venv/bin/activate  # On macOS/Linux
+advanced_rag_venv\Scripts\activate    # On Windows
 ```
 
-### **4️ Install Dependencies**
+### 3. Install Dependencies
 
-Each Jupyter Notebook **automatically installs** the required dependencies when you run the first cell. However, you can manually install them:
+The dependencies will be installed automatically when you run the respective Jupyter notebooks, as the first cell in each notebook runs:
 
-#### **For the simpler Model:**
+```sh
+pip install -r simpler_rag_requirements.txt  # For the simpler model
+pip install -r advanced_rag_requirements.txt  # For the advanced model
+```
 
-```bash
+Alternatively, install manually:
+
+```sh
 pip install -r simpler_rag_requirements.txt
 ```
 
-#### **For the Advanced Model:**
+*or*
 
-```bash
+```sh
 pip install -r advanced_rag_requirements.txt
 ```
 
-### **5️ Run the Jupyter Notebook**
+### 4. Run the Jupyter Notebook
 
-Start Jupyter Notebook and open the respective `.ipynb` file:
-
-```bash
+```sh
 jupyter notebook
 ```
 
-- Open \`\` for the simpler Model.
-- Open \`\` for the Advanced Model.
-- Run the cells in order to test the chatbot.
+Open `simpler_rag_model.ipynb` or `advanced_rag_model.ipynb` and execute the cells.
 
 ---
 
-## **Project Evolution**
+## Challenges Faced & Solutions
 
-### **simpler RAG Model (Robust & Reliable )**
+### **1. Keyword Detection Issues**
 
-This serves as the foundation of the project:
+- Initial retrieval was not accurately detecting key phrases and was leading to very irrelevant responses.
+- **Solution:** Implemented **Hybrid Retrieval (Vector + Keyword)** to combine FAISS vector search with BM25 filtering for improved precision.
 
-- Extracts raw text from PDFs using **PyMuPDF (fitz)**.
-- Uses **FAISS** for vector indexing and retrieval.
-- Simple chunking mechanism for breaking down text.
-- Query processing using **OpenAI API**.
+### **2. Cut-off Sentences Leading to Incorrect or Diluted Answers**
 
-### **Advanced RAG Model (Additional Features ⚠️)**
+- Sentence chunks were split in ways that led to incomplete context that led to LLM hallucinating and generating answers by itself.
+- **Solution:** Used **Adaptive Dynamic Chunking**, which analyzes sentence structures to ensure meaningful text segmentation.
 
-Includes more sophisticated techniques:
+### **3. Failure to Detect Structured Sections (Tables, Headers, Lists)**
 
-- **Adaptive Chunking**: Dynamically adjusts chunk sizes based on sentence structure.
-- **Structured Extraction & Tagging**: Uses `Unstructured` to extract metadata (headers, sections, etc.).
-- **Hybrid Retrieval**: Combines FAISS (vector search) with BM25 (keyword search).
-- **Enhanced Prompt Engineering**: Custom templates for improved response generation.
+- Raw text extraction methods did not preserve document structures.
+- **Solution:** Implemented **Advanced PDF Processing** using Unstructured’s `partition_pdf`, ensuring better section preservation.
 
-**The advanced model can be fine-tuned further to improve context retrieval and further optimize results.**
+### **4. Dependency Conflicts Between Simpler and Advanced Models**
 
----
+- Overlapping dependencies caused package mismatches.
+- **Solution:** Created separate virtual environments for the simpler and advanced models.
 
-## **Testing the Solution**
+### **5. Latency in Query Processing**
 
-To test the chatbot:
-
-1. **Upload a PDF** using the notebook interface.
-2. **Ask a question** related to the document.
-3. The model retrieves the most relevant sections and generates a response using GPT.
+- Response time was slow due to large document sizes.
+- **Solution:** Optimized FAISS indexing and added caching mechanisms for faster queries.
 
 ---
 
-## **Deployment Guide**
+## Scalability & Efficiency
 
-To deploy this as a **web application**, you can:
+- **Optimized Query Processing:**\
+  The retrieval pipeline leverages FAISS for fast vector search and BM25 for effective keyword filtering, ensuring responsive performance even with large PDFs.
 
-- Use **Flask or FastAPI** for backend API deployment.
-- Implement a **Streamlit UI** for an interactive web-based chatbot.
-- Deploy on **AWS EC2, Google Cloud, or Heroku** for cloud accessibility.
+- **Flexible Embedding Options:**\
+  The system supports both cloud-based and local embedding models, offering a balance between accuracy and cost-performance.
+
+- **Low-Latency Architecture:**\
+  Efficient indexing and caching strategies maintain low response times under high concurrency.
 
 ---
 
-## **Future Enhancements**
-
-
+## Future Enhancements
 
 Multi-Document Querying → Expanding capabilities to allow simultaneous search across multiple PDFs.
 
@@ -146,3 +193,8 @@ Fine-Tuning Retrieval Models → Exploring domain-specific embedding optimizatio
 
 Contextual Retrieval → Exploring Combinational Embedding and Contextual BM25 as it has shown to reduce the top-20-chunk retrieval failure rate by 49%.according to  Anthropic.
 
+---
+
+## Conclusion
+
+This project demonstrates a comprehensive approach to building a scalable and efficient PDF RAG chatbot. The simpler prototype provided a robust foundation, while the advanced model offers additional customizability and fine-tuning capabilities. Both versions illustrate my understanding of RAG systems and my commitment to continuous improvement.
