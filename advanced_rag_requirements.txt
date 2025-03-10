@@ -4,11 +4,15 @@ aiohttp==3.10.11
 aiohttp-retry==2.8.3
 aioice==0.9.0
 aiortc==1.9.0
+Flask 
+flask-cors
+fastapi
 aiosignal==1.3.2
 aiosqlite==0.21.0
 annotated-types==0.7.0
 anthropic==0.34.2
 anyio==4.8.0
+react-icons
 APScheduler==3.11.0
 asttokens==3.0.0
 asyncua==1.1.5
