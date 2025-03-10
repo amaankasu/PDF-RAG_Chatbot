@@ -1,0 +1,174 @@
+2025-03-04 06:39:44,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-04 06:39:44,178 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 06:39:44,194 - INFO -  * Restarting with stat
+2025-03-04 06:40:10,577 - WARNING -  * Debugger is active!
+2025-03-04 06:40:10,584 - INFO -  * Debugger PIN: 866-268-135
+2025-03-04 06:45:25,375 - INFO - 127.0.0.1 - - [04/Mar/2025 06:45:25] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-04 06:45:25,696 - INFO - 127.0.0.1 - - [04/Mar/2025 06:45:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-04 06:47:30,849 - INFO - 127.0.0.1 - - [04/Mar/2025 06:47:30] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-04 06:47:50,221 - INFO - 127.0.0.1 - - [04/Mar/2025 06:47:50] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2025-03-04 06:48:21,113 - INFO -  * Detected change in 'C:\\Users\\amaan\\Desktop\\RAG Chatbot\\backend\\advanced-model\\app.py', reloading
+2025-03-04 06:48:22,908 - INFO -  * Restarting with stat
+2025-03-04 06:48:49,552 - WARNING -  * Debugger is active!
+2025-03-04 06:48:49,561 - INFO -  * Debugger PIN: 866-268-135
+2025-03-04 06:50:02,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-04 06:50:02,979 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 06:50:02,982 - INFO -  * Restarting with stat
+2025-03-04 06:50:29,898 - WARNING -  * Debugger is active!
+2025-03-04 06:50:29,905 - INFO -  * Debugger PIN: 866-268-135
+2025-03-04 06:53:54,919 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-04 06:53:54,919 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 06:53:54,924 - INFO -  * Restarting with stat
+2025-03-04 06:54:20,727 - WARNING -  * Debugger is active!
+2025-03-04 06:54:20,738 - INFO -  * Debugger PIN: 866-268-135
+2025-03-04 07:16:47,321 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-04 07:16:47,321 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 07:16:47,326 - INFO -  * Restarting with stat
+2025-03-04 07:17:14,934 - WARNING -  * Debugger is active!
+2025-03-04 07:17:14,942 - INFO -  * Debugger PIN: 866-268-135
+2025-03-04 08:50:08,759 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-04 08:50:08,759 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 08:50:08,767 - INFO -  * Restarting with stat
+2025-03-04 08:50:21,805 - WARNING -  * Debugger is active!
+2025-03-04 08:50:21,808 - INFO -  * Debugger PIN: 866-268-135
+2025-03-04 08:52:01,216 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-04 08:52:01,217 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-04 08:52:01,217 - WARNING - Falling back to partitioning with hi_res.
+2025-03-04 08:52:02,198 - INFO - Reading PDF for file: uploads\standard-residential-lease-agreement-template.pdf ...
+2025-03-04 08:52:02,203 - INFO - Structured extraction failed; falling back. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-04 08:52:04,854 - INFO - 127.0.0.1 - - [04/Mar/2025 08:52:04] "POST /upload HTTP/1.1" 200 -
+2025-03-04 08:52:10,421 - INFO - 127.0.0.1 - - [04/Mar/2025 08:52:10] "OPTIONS /query HTTP/1.1" 200 -
+2025-03-04 08:58:37,515 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-04 08:58:37,515 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-04 08:58:37,516 - INFO -  * Restarting with stat
+2025-03-04 08:58:51,579 - WARNING -  * Debugger is active!
+2025-03-04 08:58:51,582 - INFO -  * Debugger PIN: 866-268-135
+2025-03-05 06:52:03,830 - INFO - Use pytorch device_name: cpu
+2025-03-05 06:52:03,834 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 06:52:34,007 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 06:52:34,009 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 06:52:34,009 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 06:52:35,813 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 06:52:35,827 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 06:54:10,404 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 06:54:10,408 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 06:54:10,408 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 06:54:10,408 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 06:54:10,420 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 06:55:10,992 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 06:55:10,995 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 06:55:10,996 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 06:55:10,996 - INFO - Reading PDF for file: uploads\standard-residential-lease-agreement-template.pdf ...
+2025-03-05 06:55:11,005 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 06:58:27,505 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 06:58:27,508 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 06:58:27,508 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 06:58:27,510 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 06:58:27,523 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:03:15,756 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:03:15,759 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:03:15,760 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:03:15,760 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:03:15,793 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:06:06,159 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:06:06,175 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:06:06,175 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:06:06,175 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:06:06,254 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:07:41,037 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:07:41,039 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:07:41,040 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:07:41,040 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:07:41,053 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:15:55,615 - INFO - Use pytorch device_name: cpu
+2025-03-05 07:15:55,615 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 07:18:11,656 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:18:11,658 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:18:11,658 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:18:12,597 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:18:12,604 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:27:27,294 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:27:27,297 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:27:27,297 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:27:27,297 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:27:27,302 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:29:21,769 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:29:21,770 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:29:21,770 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:29:21,771 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:29:21,776 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:31:20,743 - INFO - Use pytorch device_name: cpu
+2025-03-05 07:31:20,744 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 07:31:57,887 - INFO - Use pytorch device_name: cpu
+2025-03-05 07:31:57,887 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 07:32:36,411 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:32:36,413 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:32:36,413 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:32:37,101 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:32:37,107 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:32:48,325 - INFO - HNSW Search Time: 0.0203 seconds
+2025-03-05 07:33:34,122 - INFO - HNSW Search Time: 0.0205 seconds
+2025-03-05 07:34:11,085 - INFO - HNSW Search Time: 0.0231 seconds
+2025-03-05 07:45:20,479 - INFO - HNSW Search Time: 0.0112 seconds
+2025-03-05 07:54:10,422 - INFO - Use pytorch device_name: cpu
+2025-03-05 07:54:10,423 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 07:54:22,619 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:54:22,620 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:54:22,621 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:54:23,488 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:54:23,495 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:54:55,147 - INFO - HNSW Search Time: 0.0242 seconds
+2025-03-05 07:56:40,167 - INFO - Use pytorch device_name: cpu
+2025-03-05 07:56:40,167 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 07:56:42,704 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:56:42,705 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:56:42,705 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:56:43,386 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 07:56:43,391 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 07:56:53,458 - INFO - HNSW Search Time: 0.0195 seconds
+2025-03-05 07:58:26,201 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 07:58:26,202 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 07:58:26,202 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 07:58:26,202 - INFO - Reading PDF for file: uploads\standard-residential-lease-agreement-template.pdf ...
+2025-03-05 07:58:26,206 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 08:00:18,157 - INFO - HNSW Search Time: 0.0424 seconds
+2025-03-05 08:01:45,807 - INFO - HNSW Search Time: 0.0110 seconds
+2025-03-05 08:02:37,802 - INFO - HNSW Search Time: 0.0090 seconds
+2025-03-05 08:06:10,229 - INFO - HNSW Search Time: 0.0095 seconds
+2025-03-05 08:20:52,666 - INFO - Use pytorch device_name: cpu
+2025-03-05 08:20:52,666 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 08:21:18,040 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 08:21:18,041 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 08:21:18,041 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 08:21:18,893 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 08:21:18,900 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 08:23:03,039 - INFO - HNSW Search Time: 0.0261 seconds
+2025-03-05 08:32:03,985 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 08:32:03,986 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 08:32:03,986 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 08:32:03,986 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 08:32:03,990 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 08:32:30,051 - INFO - HNSW Search Time: 0.0243 seconds
+2025-03-05 08:39:55,136 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 08:39:55,137 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 08:39:55,137 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 08:39:55,138 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-05 08:39:55,142 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 08:40:29,787 - INFO - HNSW Search Time: 0.0373 seconds
+2025-03-07 23:14:51,293 - INFO - Use pytorch device_name: cpu
+2025-03-07 23:14:51,295 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-07 23:25:01,490 - INFO - Use pytorch device_name: cpu
+2025-03-07 23:25:01,491 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-07 23:25:24,431 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-07 23:25:24,435 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-07 23:25:24,435 - WARNING - Falling back to partitioning with hi_res.
+2025-03-07 23:25:26,259 - INFO - Reading PDF for file: uploads\poa.pdf ...
+2025-03-07 23:25:26,276 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-07 23:25:42,733 - INFO - HNSW Search Time: 0.0542 seconds
+2025-03-07 23:29:45,801 - INFO - HNSW Search Time: 0.0387 seconds

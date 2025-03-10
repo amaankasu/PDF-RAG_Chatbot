@@ -1,0 +1,14 @@
+2025-03-05 02:50:18,807 - INFO - Use pytorch device_name: cpu
+2025-03-05 02:50:18,807 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-05 02:50:25,939 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 02:50:25,940 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 02:50:25,940 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 02:50:26,644 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\poa.pdf ...
+2025-03-05 02:50:26,648 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 02:50:54,671 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-05 02:50:54,672 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-05 02:50:54,672 - WARNING - Falling back to partitioning with hi_res.
+2025-03-05 02:50:54,672 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\poa.pdf ...
+2025-03-05 02:50:54,675 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-05 02:52:30,078 - INFO - Use pytorch device_name: cpu
+2025-03-05 02:52:30,078 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2

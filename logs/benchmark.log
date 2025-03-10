@@ -1,0 +1,515 @@
+2025-03-01 03:05:50,669 - PDF Processing Time: 1.0006 seconds
+2025-03-01 03:10:21,733 - INFO - Use pytorch device_name: cpu
+2025-03-01 03:10:21,733 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 03:10:56,902 - PDF Processing Time: 1.0009 seconds
+2025-03-01 03:15:31,801 - PDF Processing Time: 1.0012 seconds
+2025-03-01 03:25:26,580 - INFO - Use pytorch device_name: cpu
+2025-03-01 03:25:26,580 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 03:40:20,533 - INFO - Use pytorch device_name: cpu
+2025-03-01 03:40:20,534 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 03:41:27,894 - INFO - Use pytorch device_name: cpu
+2025-03-01 03:41:27,894 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 03:51:25,528 - INFO - Use pytorch device_name: cpu
+2025-03-01 03:51:25,528 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 03:52:06,727 - INFO - PDF Extraction Time: 0.7889 seconds
+2025-03-01 03:53:06,121 - INFO - Adaptive Chunking Time: 59.3939 seconds
+2025-03-01 03:53:45,047 - INFO - Embedding Generation Time: 38.9252 seconds
+2025-03-01 03:53:45,049 - INFO - Index Building Time: 0.0025 seconds
+2025-03-01 03:53:45,049 - INFO - Total Processing Time: 99.1170 seconds
+2025-03-01 03:56:50,055 - INFO - Query Retrieval Time: 0.0738 seconds
+2025-03-01 03:56:52,168 - INFO - Total Query Processing Time: 2.1865 seconds
+2025-03-01 04:12:12,517 - INFO - Use pytorch device_name: cpu
+2025-03-01 04:12:12,517 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 04:12:27,902 - INFO - PDF Extraction Time: 0.3806 seconds
+2025-03-01 04:12:37,309 - INFO - Adaptive Chunking Time: 9.4053 seconds
+2025-03-01 04:12:43,372 - INFO - Embedding Generation Time: 6.0629 seconds
+2025-03-01 04:12:43,372 - INFO - Index Building Time: 0.0000 seconds
+2025-03-01 04:12:43,372 - INFO - Total Processing Time: 15.8608 seconds
+2025-03-01 04:14:35,090 - INFO - Query Retrieval Time: 0.0435 seconds
+2025-03-01 04:14:36,208 - INFO - Total Query Processing Time: 1.1621 seconds
+2025-03-01 04:21:01,962 - INFO - Use pytorch device_name: cpu
+2025-03-01 04:21:01,963 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 04:21:14,335 - INFO - PDF Extraction Time: 0.3727 seconds
+2025-03-01 04:21:24,634 - INFO - Adaptive Chunking Time: 10.2995 seconds
+2025-03-01 04:21:30,617 - INFO - Embedding Generation Time: 5.9827 seconds
+2025-03-01 04:21:30,664 - INFO - HNSW Index Building Time: 0.0473 seconds
+2025-03-01 04:21:30,665 - INFO - Total Processing Time: 16.7124 seconds
+2025-03-01 04:23:41,224 - INFO - Query Retrieval Time: 0.0121 seconds
+2025-03-01 04:23:43,691 - INFO - Total Query Processing Time: 2.4785 seconds
+2025-03-01 04:36:34,869 - INFO - Use pytorch device_name: cpu
+2025-03-01 04:36:34,869 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 04:36:55,940 - INFO - PDF Extraction Time: 0.4155 seconds
+2025-03-01 04:37:06,058 - INFO - Adaptive Chunking Time: 10.1184 seconds
+2025-03-01 04:37:11,933 - INFO - Embedding Generation Time: 5.8750 seconds
+2025-03-01 04:37:11,933 - INFO - FAISS Index Building Time: 0.0000 seconds
+2025-03-01 04:37:11,948 - INFO - BM25 Index Building Time: 0.0145 seconds
+2025-03-01 04:37:11,948 - INFO - Total Processing Time: 16.4335 seconds
+2025-03-01 04:38:19,856 - INFO - Query Retrieval Time: 0.0381 seconds
+2025-03-01 04:38:21,921 - INFO - Total Query Processing Time: 2.1028 seconds
+2025-03-01 04:43:57,194 - INFO - Use pytorch device_name: cpu
+2025-03-01 04:43:57,195 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 04:44:10,286 - INFO - Use pytorch device_name: cpu
+2025-03-01 04:44:10,286 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 04:44:38,259 - INFO - PDF Extraction Time: 0.3652 seconds
+2025-03-01 04:44:48,855 - INFO - Adaptive Chunking Time: 10.5959 seconds
+2025-03-01 04:44:54,798 - INFO - Embedding Generation Time: 5.9432 seconds
+2025-03-01 04:44:54,814 - INFO - HNSW Index Building Time: 0.0162 seconds
+2025-03-01 04:44:54,814 - INFO - Total Processing Time: 16.9298 seconds
+2025-03-01 04:45:32,865 - INFO - HNSW Search Time: 0.0150 seconds
+2025-03-01 04:45:32,865 - INFO - Query Retrieval Time: 0.0150 seconds
+2025-03-01 04:45:35,133 - INFO - Total Query Processing Time: 2.2826 seconds
+2025-03-01 05:19:45,532 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:19:45,532 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:20:03,468 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:20:03,469 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:20:03,469 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:20:22,408 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:20:22,411 - INFO - Unstructured extraction failed, trying layout analysis/OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:20:22,413 - INFO - Layout analysis extraction failed, falling back to full-page OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:24:13,139 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:24:13,139 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:24:26,708 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:24:26,709 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:24:26,709 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:24:27,562 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:24:27,566 - INFO - Unstructured extraction failed, trying layout analysis/OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:24:27,568 - INFO - Layout analysis extraction failed, falling back to full-page OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:25:40,151 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:25:40,151 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:25:49,863 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:25:49,864 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:25:49,864 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:25:50,736 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:25:50,741 - INFO - Unstructured extraction failed, trying layout analysis/OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:25:50,743 - INFO - Layout analysis extraction failed, falling back to full-page OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:29:34,795 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:29:34,796 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:29:48,379 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:29:48,380 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:29:48,380 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:29:49,240 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:29:49,244 - INFO - Unstructured extraction failed, trying layout analysis/OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:29:49,246 - INFO - Layout analysis extraction failed, falling back to full-page OCR. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:34:16,634 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:34:16,634 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:34:34,446 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:34:34,446 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:34:57,595 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:34:57,595 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:34:57,595 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:34:58,247 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:34:58,251 - INFO - Structured extraction failed, falling back to PyMuPDF extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:34:58,576 - INFO - PDF Extraction Time: 0.9961 seconds
+2025-03-01 05:35:05,433 - INFO - Adaptive Chunking Time: 6.8574 seconds
+2025-03-01 05:35:10,905 - INFO - Embedding Generation Time: 5.4721 seconds
+2025-03-01 05:35:10,926 - INFO - HNSW Index Building Time: 0.0201 seconds
+2025-03-01 05:35:10,926 - INFO - Total Processing Time: 13.3563 seconds
+2025-03-01 05:35:48,821 - INFO - HNSW Search Time: 0.0334 seconds
+2025-03-01 05:35:48,821 - INFO - Query Retrieval Time: 0.0334 seconds
+2025-03-01 05:35:51,297 - INFO - Total Query Processing Time: 2.5097 seconds
+2025-03-01 05:40:53,725 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:40:53,725 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:41:06,630 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:41:06,631 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:41:06,631 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:41:07,343 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:41:07,348 - INFO - Structured extraction failed, falling back to PyMuPDF extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:41:07,759 - INFO - PDF Extraction Time: 1.1511 seconds
+2025-03-01 05:41:16,880 - INFO - Adaptive Chunking Time: 9.1212 seconds
+2025-03-01 05:41:22,485 - INFO - Embedding Generation Time: 5.6053 seconds
+2025-03-01 05:41:22,512 - INFO - HNSW Index Building Time: 0.0269 seconds
+2025-03-01 05:41:22,512 - INFO - Total Processing Time: 15.9130 seconds
+2025-03-01 05:41:55,140 - INFO - HNSW Search Time: 0.0254 seconds
+2025-03-01 05:41:58,022 - INFO - Total Query Processing Time: 2.8820 seconds
+2025-03-01 05:48:51,393 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:48:51,394 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:49:07,975 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:49:07,977 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:49:07,977 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:49:08,998 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:49:09,002 - INFO - Structured extraction failed, falling back to PyMuPDF extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:49:09,380 - INFO - PDF Extraction Time: 1.4353 seconds
+2025-03-01 05:49:17,719 - INFO - Adaptive Chunking Time: 8.3385 seconds
+2025-03-01 05:49:23,558 - INFO - Embedding Generation Time: 5.8386 seconds
+2025-03-01 05:49:23,626 - INFO - HNSW Index Building Time: 0.0675 seconds
+2025-03-01 05:49:23,626 - INFO - Total Processing Time: 15.6810 seconds
+2025-03-01 05:50:02,962 - INFO - HNSW Search Time: 0.0275 seconds
+2025-03-01 05:50:06,306 - INFO - Total Query Processing Time: 3.3440 seconds
+2025-03-01 05:51:27,500 - INFO - Use pytorch device_name: cpu
+2025-03-01 05:51:27,500 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 05:51:47,236 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 05:51:47,237 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 05:51:47,237 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 05:51:48,091 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 05:51:48,096 - INFO - Structured extraction failed; using PyMuPDF fallback. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 05:51:48,451 - INFO - PDF Extraction Time: 1.2443 seconds
+2025-03-01 05:51:56,627 - INFO - Adaptive Chunking Time: 8.1759 seconds
+2025-03-01 05:52:02,878 - INFO - Embedding Generation Time: 6.2514 seconds
+2025-03-01 05:52:02,994 - INFO - HNSW Index Building Time: 0.1155 seconds
+2025-03-01 05:52:02,994 - INFO - Total Processing Time: 15.7871 seconds
+2025-03-01 05:52:41,894 - INFO - HNSW Search Time: 0.0262 seconds
+2025-03-01 05:52:43,855 - INFO - Total Query Processing Time: 1.9594 seconds
+2025-03-01 18:37:57,362 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-01 18:37:57,365 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-01 18:37:57,365 - WARNING - Falling back to partitioning with hi_res.
+2025-03-01 18:37:57,367 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-01 18:37:57,375 - INFO - Structured extraction failed; using PyMuPDF fallback. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-01 18:37:57,838 - INFO - PDF Extraction Time: 0.5253 seconds
+2025-03-01 18:37:58,878 - INFO - Use pytorch device_name: cpu
+2025-03-01 18:37:58,879 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-01 18:38:10,370 - INFO - Adaptive Chunking Time: 12.5326 seconds
+2025-03-01 18:38:17,506 - INFO - Embedding Generation Time: 7.1354 seconds
+2025-03-01 18:38:17,510 - INFO - HNSW Index Building Time: 0.0040 seconds
+2025-03-01 18:38:17,510 - INFO - Total Processing Time: 20.1973 seconds
+2025-03-01 18:39:02,718 - INFO - HNSW Search Time: 0.0345 seconds
+2025-03-01 18:39:06,227 - INFO - Total Query Processing Time: 3.5091 seconds
+2025-03-02 02:40:35,920 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 02:40:35,922 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 02:40:35,922 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 02:40:35,923 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-02 02:40:35,930 - INFO - Structured extraction failed; using PyMuPDF fallback. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 02:40:36,363 - INFO - PDF Extraction Time: 0.4813 seconds
+2025-03-02 02:40:46,242 - INFO - Adaptive Chunking Time: 9.8794 seconds
+2025-03-02 02:40:53,257 - INFO - Embedding Generation Time: 7.0152 seconds
+2025-03-02 02:40:53,264 - INFO - HNSW Index Building Time: 0.0070 seconds
+2025-03-02 02:40:53,264 - INFO - Total Processing Time: 17.3829 seconds
+2025-03-02 02:41:31,598 - INFO - HNSW Search Time: 0.0305 seconds
+2025-03-02 02:41:34,471 - INFO - Total Query Processing Time: 2.8727 seconds
+2025-03-02 02:41:49,431 - INFO - Use pytorch device_name: cpu
+2025-03-02 02:41:49,431 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 02:44:23,545 - INFO - HNSW Search Time: 0.0170 seconds
+2025-03-02 02:44:26,074 - INFO - Total Query Processing Time: 2.5282 seconds
+2025-03-02 02:45:10,920 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 02:45:10,921 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 02:45:10,922 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 02:45:10,922 - INFO - Reading PDF for file: temp_sam_researchpaper.pdf ...
+2025-03-02 02:45:10,925 - INFO - Structured extraction failed; using PyMuPDF fallback. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 02:45:11,099 - INFO - Use pytorch device_name: cpu
+2025-03-02 02:45:11,099 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 02:45:11,280 - INFO - PDF Extraction Time: 0.4011 seconds
+2025-03-02 02:45:20,975 - INFO - Adaptive Chunking Time: 9.6955 seconds
+2025-03-02 02:45:27,566 - INFO - Embedding Generation Time: 6.5903 seconds
+2025-03-02 02:45:27,568 - INFO - HNSW Index Building Time: 0.0020 seconds
+2025-03-02 02:45:27,568 - INFO - Total Processing Time: 16.6889 seconds
+2025-03-02 02:47:14,040 - INFO - HNSW Search Time: 0.0349 seconds
+2025-03-02 02:47:16,945 - INFO - Total Query Processing Time: 2.9051 seconds
+2025-03-02 02:52:56,072 - INFO - Use pytorch device_name: cpu
+2025-03-02 02:52:56,072 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 02:53:00,256 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 02:53:00,258 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 02:53:00,259 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 02:53:01,512 - INFO - Reading PDF for file: data/sample_paper.pdf ...
+2025-03-02 02:53:01,524 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 02:54:55,276 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 02:54:55,278 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 02:54:55,280 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 02:54:55,280 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 02:54:55,287 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 02:55:21,901 - INFO - HNSW Search Time: 0.0285 seconds
+2025-03-02 02:58:54,155 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 02:58:54,158 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 02:58:54,158 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 02:58:54,159 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 02:58:54,165 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:06:44,274 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:06:44,276 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:06:44,276 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:06:44,276 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:06:44,283 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:33:57,112 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:33:57,113 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:33:57,113 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:33:57,114 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:33:57,122 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:38:48,319 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:38:48,322 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:38:48,322 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:38:48,322 - INFO - Reading PDF for file: data/tech_paper.pdf ...
+2025-03-02 03:38:48,334 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:39:33,482 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:39:33,485 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:39:33,485 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:39:33,485 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:39:33,492 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:40:34,630 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:40:34,633 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:40:34,633 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:40:34,633 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:40:34,641 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:42:52,142 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:42:52,145 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:42:52,145 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:42:52,145 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:42:52,153 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:42:52,738 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:42:52,738 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:42:52,738 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:42:52,742 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:43:18,997 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:43:18,998 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:43:18,998 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:43:18,998 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:43:19,006 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:43:22,790 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:43:22,792 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:43:22,792 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:43:22,792 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\sam_researchpaper.pdf ...
+2025-03-02 03:46:15,000 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:46:15,003 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:46:15,003 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:46:15,004 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\Amaan Kasu Resume(1).pdf ...
+2025-03-02 03:46:15,021 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:47:38,536 - INFO - Use pytorch device_name: cpu
+2025-03-02 03:47:38,536 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 03:47:48,213 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:47:48,215 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:47:48,215 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:47:48,216 - INFO - Reading PDF for file: temp_Amaan Kasu Resume(1).pdf ...
+2025-03-02 03:47:48,223 - INFO - Structured extraction failed; using PyMuPDF fallback. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 03:47:48,248 - INFO - PDF Extraction Time: 0.0575 seconds
+2025-03-02 03:47:48,556 - INFO - Adaptive Chunking Time: 0.3076 seconds
+2025-03-02 03:47:48,706 - INFO - Embedding Generation Time: 0.1487 seconds
+2025-03-02 03:47:48,706 - INFO - HNSW Index Building Time: 0.0000 seconds
+2025-03-02 03:47:48,706 - INFO - Total Processing Time: 0.5149 seconds
+2025-03-02 03:48:18,438 - INFO - HNSW Search Time: 0.0160 seconds
+2025-03-02 03:48:20,392 - INFO - Total Query Processing Time: 1.9537 seconds
+2025-03-02 03:50:16,657 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 03:50:16,660 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 03:50:16,660 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 03:50:16,660 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\02. Jack and the Beanstalk Author Joseph Jacobs.pdf ...
+2025-03-02 03:50:16,678 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 04:13:27,238 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 04:13:27,239 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 04:13:27,239 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 04:13:27,240 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\kecs101.pdf ...
+2025-03-02 04:13:27,245 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 04:15:21,556 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 04:15:21,558 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 04:15:21,558 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 04:15:21,558 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\kecs101.pdf ...
+2025-03-02 04:15:21,563 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 04:24:31,108 - INFO - HNSW Search Time: 0.0241 seconds
+2025-03-02 04:24:33,003 - INFO - Total Query Processing Time: 1.8952 seconds
+2025-03-02 04:25:11,095 - INFO - HNSW Search Time: 0.0131 seconds
+2025-03-02 04:25:11,756 - INFO - Total Query Processing Time: 0.6601 seconds
+2025-03-02 04:36:00,488 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 04:36:00,489 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 04:36:00,489 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 04:36:00,490 - INFO - Reading PDF for file: temp_standard-residential-lease-agreement-template.pdf ...
+2025-03-02 04:36:00,494 - INFO - Structured extraction failed; using PyMuPDF fallback. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 04:36:00,531 - INFO - PDF Extraction Time: 0.0610 seconds
+2025-03-02 04:36:01,964 - INFO - Adaptive Chunking Time: 1.4330 seconds
+2025-03-02 04:36:02,711 - INFO - Embedding Generation Time: 0.7472 seconds
+2025-03-02 04:36:02,712 - INFO - HNSW Index Building Time: 0.0010 seconds
+2025-03-02 04:36:02,712 - INFO - Total Processing Time: 2.2423 seconds
+2025-03-02 04:36:34,446 - INFO - HNSW Search Time: 0.0299 seconds
+2025-03-02 04:36:36,436 - INFO - Total Query Processing Time: 1.9897 seconds
+2025-03-02 04:39:53,276 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 04:39:53,278 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 04:39:53,278 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 04:39:53,278 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 04:39:53,281 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 06:39:26,945 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 06:39:26,948 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 06:39:26,948 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 06:39:26,949 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 06:39:26,960 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 06:51:23,919 - INFO - Use pytorch device_name: cpu
+2025-03-02 06:51:23,919 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 06:51:27,488 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 06:51:27,490 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 06:51:27,491 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 06:51:27,491 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 06:51:27,498 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 06:53:27,904 - INFO - Use pytorch device_name: cpu
+2025-03-02 06:53:27,904 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 06:53:30,874 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 06:53:30,877 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 06:53:30,877 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 06:53:30,878 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 06:53:30,887 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:08:15,728 - INFO - Use pytorch device_name: cpu
+2025-03-02 19:08:15,729 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 19:08:18,834 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:08:18,836 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:08:18,836 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:08:18,837 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:08:18,842 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:10:26,738 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:10:26,741 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:10:26,742 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:10:26,742 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:10:26,751 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:22:28,402 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:22:28,404 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:22:28,404 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:22:28,404 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:22:28,413 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:23:39,931 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:23:39,933 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:23:39,933 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:23:39,934 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:23:39,942 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:30:49,084 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:30:49,087 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:30:49,087 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:30:49,087 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:30:49,095 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:34:00,779 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:34:00,782 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:34:00,782 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:34:00,783 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:34:00,792 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:46:38,909 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:46:38,912 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:46:38,912 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:46:38,912 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 19:46:38,921 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 19:58:40,676 - INFO - Use pytorch device_name: cpu
+2025-03-02 19:58:40,676 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 19:58:44,796 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 19:58:44,798 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 19:58:44,798 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 19:58:46,199 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\sample_resume.pdf ...
+2025-03-02 19:58:46,212 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:02:04,479 - INFO - Use pytorch device_name: cpu
+2025-03-02 20:02:04,480 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 20:02:08,989 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:02:08,992 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:02:08,993 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:02:10,362 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 20:02:10,368 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:04:02,439 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:04:02,441 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:04:02,441 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:04:02,441 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:04:02,455 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:04:13,051 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:04:13,053 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:04:13,053 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:04:13,054 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:04:13,065 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:04:49,128 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:04:49,131 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:04:49,131 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:04:49,132 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:04:49,144 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:05:46,063 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:05:46,065 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:05:46,065 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:05:46,065 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:05:46,080 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:06:17,246 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:06:17,248 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:06:17,248 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:06:17,248 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:06:17,258 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:06:37,856 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:06:37,857 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:06:37,857 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:06:37,858 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:06:37,870 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:07:01,088 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:07:01,090 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:07:01,090 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:07:01,091 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\Amaan Kasu Resume(1).pdf ...
+2025-03-02 20:07:01,105 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:10:12,430 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:10:12,433 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:10:12,433 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:10:12,433 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 20:10:12,443 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:10:54,291 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:10:54,295 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:10:54,295 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:10:54,296 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 20:10:54,305 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:12:18,290 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:12:18,294 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:12:18,294 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:12:18,294 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 20:12:18,303 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 20:13:00,751 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 20:13:00,754 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 20:13:00,754 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 20:13:00,754 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 20:13:00,761 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 22:38:51,635 - INFO - Use pytorch device_name: cpu
+2025-03-02 22:38:51,636 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 22:39:00,251 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 22:39:00,253 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 22:39:00,253 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 22:39:01,797 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 22:39:01,802 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 22:41:59,453 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 22:41:59,457 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 22:41:59,457 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 22:41:59,457 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 22:41:59,464 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 22:42:18,316 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 22:42:18,318 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 22:42:18,318 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 22:42:18,318 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 22:42:18,325 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 22:43:07,385 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 22:43:07,387 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 22:43:07,387 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 22:43:07,388 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 22:43:07,397 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 22:54:40,845 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 22:54:40,846 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 22:54:40,846 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 22:54:40,847 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 22:54:40,850 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-02 23:05:42,069 - INFO - Use pytorch device_name: cpu
+2025-03-02 23:05:42,069 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 23:05:45,566 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 23:05:45,567 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-02 23:05:45,567 - WARNING - Falling back to partitioning with hi_res.
+2025-03-02 23:05:46,402 - INFO - Reading PDF for file: C:\Users\amaan\Downloads\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 23:05:46,406 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 03:14:33,185 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-03 04:14:05,087 - INFO - Use pytorch device_name: cpu
+2025-03-03 04:14:05,087 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-03 04:14:52,813 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:14:52,816 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:14:52,816 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:14:53,684 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:14:53,690 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:15:19,222 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:15:19,223 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:15:19,223 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:15:19,223 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:15:19,227 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:15:48,307 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:15:48,308 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:15:48,308 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:15:48,308 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:15:48,311 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:17:41,682 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:17:41,683 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:17:41,683 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:17:41,683 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:17:41,687 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:18:03,044 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:18:03,045 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:18:03,045 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:18:03,045 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:18:03,048 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:21:06,057 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:21:06,058 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:21:06,058 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:21:06,058 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:21:06,062 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:22:20,010 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:22:20,011 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:22:20,011 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:22:20,011 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:22:20,016 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?
+2025-03-03 04:28:10,045 - INFO - Use pytorch device_name: cpu
+2025-03-03 04:28:10,045 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-03 04:28:14,361 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-03 04:28:14,362 - WARNING - pytesseract is not installed. Cannot use the ocr_only partitioning strategy. Falling back to partitioning with another strategy.
+2025-03-03 04:28:14,362 - WARNING - Falling back to partitioning with hi_res.
+2025-03-03 04:28:15,010 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\data\standard-residential-lease-agreement-template.pdf ...
+2025-03-03 04:28:15,013 - INFO - Structured extraction failed; using fallback extraction. Error: Unable to get page count. Is poppler installed and in PATH?

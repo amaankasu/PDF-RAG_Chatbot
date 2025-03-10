@@ -1,0 +1,36 @@
+2025-03-02 18:31:48,420 - INFO - Use pytorch device_name: cpu
+2025-03-02 18:31:48,420 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-02 18:32:07,319 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 18:32:08,123 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 18:32:08,126 - WARNING - Structure extraction failed: Unable to get page count. Is poppler installed and in PATH?, using fallback
+2025-03-02 18:32:09,307 - INFO - Building vector index for 7 chunks
+2025-03-02 18:32:09,763 - INFO - Vector index built successfully
+2025-03-02 18:32:09,765 - INFO - Processed document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf
+2025-03-02 18:32:09,765 - INFO - Querying document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf with query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:32:09,765 - INFO - Performing hybrid search for query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:33:02,530 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 18:33:02,532 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 18:33:02,536 - WARNING - Structure extraction failed: Unable to get page count. Is poppler installed and in PATH?, using fallback
+2025-03-02 18:33:03,905 - INFO - Building vector index for 7 chunks
+2025-03-02 18:33:04,121 - INFO - Vector index built successfully
+2025-03-02 18:33:04,121 - INFO - Processed document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf
+2025-03-02 18:33:04,121 - INFO - Querying document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf with query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:33:04,121 - INFO - Performing hybrid search for query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:36:56,408 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 18:36:56,409 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 18:36:56,416 - WARNING - Structure extraction failed: Unable to get page count. Is poppler installed and in PATH?, using fallback
+2025-03-02 18:36:58,067 - INFO - Building vector index for 7 chunks
+2025-03-02 18:36:58,354 - INFO - Vector index built successfully
+2025-03-02 18:36:58,354 - INFO - Processed document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf
+2025-03-02 18:36:58,354 - INFO - Querying document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf with query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:36:58,354 - INFO - Performing hybrid search for query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:37:05,441 - INFO - PDF text extraction failed, skip text extraction...
+2025-03-02 18:37:05,443 - INFO - Reading PDF for file: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf ...
+2025-03-02 18:37:05,450 - WARNING - Structure extraction failed: Unable to get page count. Is poppler installed and in PATH?, using fallback
+2025-03-02 18:37:06,639 - INFO - Building vector index for 7 chunks
+2025-03-02 18:37:06,844 - INFO - Vector index built successfully
+2025-03-02 18:37:06,844 - INFO - Processed document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf
+2025-03-02 18:37:06,844 - INFO - Querying document: C:\Users\amaan\Desktop\RAG Chatbot\standard-residential-lease-agreement-template.pdf with query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:37:06,844 - INFO - Performing hybrid search for query: What are the landlord's liabilities for tenant injuries?
+2025-03-02 18:37:06,862 - INFO - Hybrid search completed in 0.0180 seconds
+2025-03-02 18:37:06,862 - INFO - Generating answer with LLM
